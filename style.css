@@ -96,6 +96,23 @@ body
 .content-box
 {
     background: #ffffff;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
+
+h1
+{
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1::after
+{
+    content: '';
+    background: #ff4d73;
+    display: block;
+    height: 3px;
+    width: 120px;
+} 
+
+/* display error */ 
