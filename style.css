@@ -112,7 +112,35 @@ h1::after
     background: #ff4d73;
     display: block;
     height: 3px;
-    width: 120px;
+    width: 170px;
+    margin: 20px auto 50px;
 } 
+
+.services .icon
+{
+    font-size: 30px;
+    margin: 20px auto;
+    padding: 18px;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #ff4d73;
+    border-radius: 50%;
+    color: #ff4d73;
+}
+
+
+.services p
+{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #777;
+    padding: 20px;
+}
+
+.services span
+{
+    color: #ff4d73;
+}
+
 
 /* display error */ 
